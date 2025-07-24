@@ -21,12 +21,12 @@ Windows 11 64-bit
 ## Запуск Zookeeper
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties  
 
-![].(https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/1-Zookeeper.png)
+![](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/1-Zookeeper.png)
 
 ## Запуск Kafka
 .\bin\windows\kafka-server-start.bat .\config\server.properties         
 
-![].(https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/2-Kafka.png)
+![](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/2-Kafka.png)
 
 ## Создаем topic
 .\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1 --topic netology-spark
@@ -40,3 +40,12 @@ Windows 11 64-bit
 ## Чтение сообщений в консоли
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic HWTopic --from-beginning
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic netology-spark --from-beginning
+
+## Producer.py
+
+[Producer.py](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/producer.py)
+
+## Consumer.py
+
+[Consumer.py](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/consumer.py)
+
