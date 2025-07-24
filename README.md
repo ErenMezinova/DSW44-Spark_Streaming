@@ -51,7 +51,9 @@ Windows 11 64-bit
 
 ## Результат
 
+![](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/4-cmd_Join.png)
+
 ![](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/4-cmd_GroupBy.png)
 
-![](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/4-cmd_Join.png)
+
 
