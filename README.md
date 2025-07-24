@@ -49,3 +49,9 @@ Windows 11 64-bit
 
 [Consumer.py](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/consumer.py)
 
+## Результат
+
+![](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/4-cmd_GroupBy.png)
+
+![](https://github.com/ErenMezinova/DSW44-Spark_Streaming/blob/main/4-cmd_Join.png)
+
